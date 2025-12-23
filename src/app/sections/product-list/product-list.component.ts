@@ -25,6 +25,7 @@ export class ProductListComponent implements OnInit {
     "assets/productList1/product1Img3.jpeg",
     "assets/productList1/product1Img4.jpeg",
     "assets/productList1/product1Img5.jpeg",
+    "assets/productList1/product1Img6.jpeg",
   ];
 
   currentIndex = 0;
@@ -48,6 +49,7 @@ export class ProductListComponent implements OnInit {
       `assets/${this.productList}/03.jpg`,
       `assets/${this.productList}/04.jpg`,
       `assets/${this.productList}/05.jpg`,
+      `assets/${this.productList}/06.jpg`,
     ];
     this.preloadAllImages();
   }
